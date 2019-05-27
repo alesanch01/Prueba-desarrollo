@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <title>My Company Shop</title>
+</head>
+
+<body>
+    <header>
+        <!--Account bar-->
+        <div class="account">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-6 shipping align-middle">
+                    <i class="fas fa-truck center"></i>
+                    <h6 class="name">Free shipping on order above $199</h1>
+                </div>
+                <div class="col-2 user">
+                    <i class="far fa-user"></i>
+                    <h6>My Account</h6>
+                </div>
+                <div class="col-2 login">
+                    <button type="button" class="btn btn-link">Login</button>
+                    <span>/</span>
+                    <button type="button" class="btn btn-link">Register</button>
+                </div>
+            </div>
+        </div>
+        <!--Search Bar-->
+        <div class="search">
+            <div class="row justify-content-center">
+                <div class="col-2 company_logo">
+                    <i class="fas fa-shopping-bag center"></i>
+                    <h1 class="name">Company</h1>
+                </div>
+                <div class="col-5 search_bar">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <div class="dropdown">
+                            <button class="btn dropDownsearch btn-secondary dropdown-toggle " type="button"
+                                id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                All Categories
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button">Action</button>
+                                <button class="dropdown-item" type="button">Another action</button>
+                                <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                        </div>
+                        <button class="btn btn-search my-2 my-sm-0" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="col-2 wishlist">
+                    <i class="fas fa-heart"></i>
+                    <h5>WishList</h5>
+                </div>
+                <div class="col-1 shoppingicon">
+                    <i class="fas fa-shopping-bag"></i>
+                </div>
+            </div>
+        </div>
+        <!--Nav bar-->
+        <div class="navigation row justify-content-center">
+            <div class="links col-6">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">New Arrivals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Brand</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="cart col-3">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownCartButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-shopping-bag d-inline-block"></i>
+                        <div class="cart-items d-inline-block">
+                            <h1>Cart items (3)</h1>
+                            <p>Total: $345</p>
+                        </div>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownCartButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Slider-->
+    <div id="slider">
+        <div id="carouselExampleIndicators carouselExampleFade" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../test digital/imgs/1.jpg" class="d-block w-100" alt="...">
+                    <div class="row slider-description justify-content-start">
+                        <div class="col-12">
+                            <h3>TULIPS</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>SALE</h1>
+                        </div>
+                        <div class="col-3">
+                            <h2>50% OFF</h2>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h5>SHOP NOW</h5>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end slider-actions">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">SHOP NOW</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">FROM $15</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../test digital/imgs/1.jpg" class="d-block w-100" alt="...">
+                    <div class="row slider-description justify-content-start">
+                        <div class="col-12">
+                            <h3>TULIPS</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>SALE</h1>
+                        </div>
+                        <div class="col-3">
+                            <h2>50% OFF</h2>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h5>SHOP NOW</h5>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end slider-actions">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">SHOP NOW</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">FROM $15</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../test digital/imgs/1.jpg" class="d-block w-100" alt="...">
+                    <div class="row slider-description justify-content-start">
+                        <div class="col-12">
+                            <h3>TULIPS</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>SALE</h1>
+                        </div>
+                        <div class="col-3">
+                            <h2>50% OFF</h2>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h5>SHOP NOW</h5>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end slider-actions">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">SHOP NOW</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">FROM $15</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../test digital/imgs/1.jpg" class="d-block w-100" alt="...">
+                    <div class="row slider-description justify-content-start">
+                        <div class="col-12">
+                            <h3>TULIPS</h3>
+                        </div>
+                        <div class="col-4">
+                            <h1>SALE</h1>
+                        </div>
+                        <div class="col-3">
+                            <h2>50% OFF</h2>
+                        </div>
+                        <div class="col-6 text-right">
+                            <h5>SHOP NOW</h5>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end slider-actions">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">SHOP NOW</button>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary">FROM $15</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="featured">
+        <div class="row justify-content-md-center">
+            <div class="col-4 featured-item">
+                <img src="../test digital/imgs/2.jpg">
+                <div class="description-center">
+                    Fast Same day Delivery
+                    <h3>BIRTHDAY FLOWERS</h3>
+                    <h5>Gerbera</h5>
+                    <button type="button" class="btn btn-secondary">Shop now</button>
+                </div>
+            </div>
+            <div class="col-4 featured-item">
+                <img src="../test digital/imgs/3.jpg">
+                <div class="description">
+                    <h4>V7 Digital Photo Printing</h4>
+                    <h3>PROTECTIVE PREVENTATIVE MAINTENANCE</h3>
+                    <h5>On orders over $99</h5>
+                    <button type="button" class="btn btn-secondary">Shop now</button>
+                </div>
+            </div>
+            <div class="col-4 featured-item">
+                <img src="../test digital/imgs/4.jpg">
+                <div class="description">
+                    <h4>Rose</h4>
+                    <h3>FLOWER BOUQUET</h3>
+                    <h5>50% OFF</h5>
+                    <button type="button" class="btn btn-secondary">Shop now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-6 featured-item">
+                <img src="../test digital/imgs/5.jpg">
+                <div class="description-center">
+                    <h3>SPLASH OF SUMMER</h3>
+                    <h5>25% OFF</h5>
+                    <button type="button" class="btn btn-secondary">Shop now</button>
+                </div>
+            </div>
+            <div class="col-6 featured-item">
+                <img src="../test digital/imgs/6.jpg">
+                <div class="description-center">
+                    <h3>FRESH FLOWER</h3>
+                    <h5>35% OFF</h5>
+                    <button type="button" class="btn btn-secondary">Shop now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="offers">
+        <div class="best_selling">
+            <div class="title">
+                <h3>BEST SELLING FLOWERS & GIFTS</h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="../test digital/imgs/7.jpg">
+                    </div>
+                    <div class="col">
+                        <img src="../test digital/imgs/8.jpg">
+                    </div>
+                    <div class="col">
+                        <img src="../test digital/imgs/9.jpg">
+                    </div>
+                    <div class="col">
+                        <img src="../test digital/imgs/10.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="exclusive_offers">
+            <div class="title">
+                <h3>EXCLUSIVE OFFERS</h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="../test digital/imgs/Rectangle 1.png">
+                    </div>
+                    <div class="col">
+                        <img src="../test digital/imgs/Rectangle 2.png">
+                    </div>
+                    <div class="col">
+                        <img src="../test digital/imgs/Rectangle 3.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="brands">
+        <div class="top_title">
+            <h4>Brands</h4>
+        </div>
+        <div class="brands_icons container">
+            <div class="row">
+                <div class="col">
+                    <img src="../test digital/imgs/logo 1.jpg">
+                </div>
+                <div class="col">
+                    <img src="../test digital/imgs/logo 2.jpg">
+                </div>
+                <div class="col">
+                    <img src="../test digital/imgs/logo 3.jpg">
+                </div>
+                <div class="col">
+                    <img src="../test digital/imgs/logo 4.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Company</h3>
+                    <p>Great range of laptops for your everyday essential w/ intel<i class="fas fa-registered"></i> Core
+                        <i class="fas fa-trademark"></i>. Same day shipping<i class="fas fa-circle"></i>
+                        Cash on delivery<i class="fas fa-circle"></i>EMI Options indian's No.1 Must trusted technology
+                        brand in 2015</p>
+                    <p><i class="fas fa-map-marker-alt"></i>321, Ramis Gandour Colony, District 9</p>
+                    <p><i class="fas fa-phone"></i>090-0965-2987</p>
+                    <p><i class="fas fa-envelope"></i>contact@company.com</p>
+                </div>
+                <div class="col">
+                    <h5>COLLECTIONS</h5>
+                    <ul>
+                        <li>Summer 2017</li>
+                        <li>Women's Dress</li>
+                        <li>Women's Jackets</li>
+                        <li>Men's Sweats Shirts</li>
+                        <li>Men's Dress</li>
+                        <li>Accesories</li>
+                        <li>Travel Bags</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>CUSTOMER CASE</h5>
+                    <ul>
+                        <li>Order Tracking</li>
+                        <li>The Privacy Policy</li>
+                        <li>Payments & Returns</li>
+                        <li>Product Care</li>
+                        <li>FAQ's</li>
+                        <li>Shipping Information</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5>SUSCRIBE FOR MORE UPDATES</h5>
+                    <p>Sign up for Newsletter to get all the information on Events, Offers, Sales and More.
+                    </p>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Email address" aria-label="Search">
+                    <button class="btn btn-search my-2 my-sm-0" type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p>We never share your mail at anywhere</p>
+                    <p><i class="fab fa-twitter social"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-skype"></i>
+                        <i class="fab fa-pinterest-square"></i></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>Copyrights <i class="fas fa-copyright"></i> 2018. Company All rights Reserved</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

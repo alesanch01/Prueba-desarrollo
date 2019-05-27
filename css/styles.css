@@ -1,0 +1,156 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Account section */
+.account{
+    background-color: black;
+    color: white;
+}
+
+.account .shipping *, .account .user *, .account .login *{
+    display: inline-block;
+}
+
+.shipping .fa-truck, .user .fa-user {
+    margin-right: 10px;
+    color: white;
+    font-size: 1em;
+}
+
+/* Search section  */
+.search {
+    background-color: #f1f1f1;
+    height: 110px;
+}
+
+.search .row {
+    padding-top: 30px
+}
+
+.search .shoppingicon {
+    font-size: 10px
+}
+
+.search .company_logo *, /*.search .search_bar *,*/ .search .wishlist *, .search .shippingicon * {
+    display: inline-block
+}
+
+.company_logo .fa-shopping-bag {
+    font-size: 36px;
+    margin-right: 8px
+}
+
+.company_logo .name {
+    font-size: 30px
+}
+
+.dropDownsearch{
+    color: black;
+    background-color: white;
+
+}
+
+.search_bar input {
+    width: 60% !important;
+}
+
+.btn-search { 
+    background-color: black;
+    color: white;
+}
+
+.fa-shopping-bag {
+    color: black;
+    font-size: 3em;
+    position: relative;
+}
+.fa-heart{
+    font-size: 1em;
+}
+h1 .name{
+    position: relative;
+}
+
+#input {
+    width: 100%;
+}
+
+/* Navbar */
+.navigation {
+    background-color: white;
+    height: 65px;
+}
+
+.links .navbar {
+    background-color: white !important
+}
+
+#dropdownCartButton {
+    background-color: #f1f1f1;
+}
+
+#dropdownCartButton .fa-shopping-bag{
+    font-size: 30px
+}
+
+#dropdownCartButton .cart-items *{
+    font-size: 15px
+}
+
+#featured {
+    padding: 15px
+}
+
+#featured .featured-item .description-center {
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    text-align: center;
+    color: white
+}
+
+#featured .featured-item .description{
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    text-align: start;
+    color: white
+}
+
+#featured .featured-item:hover img{
+    opacity: 0.3;
+}
+
+#featured img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#slider .slider-description {
+    position: absolute;
+    top: 28%;
+    left: 12%;
+    color: white;
+}
+
+#slider .slider-description h1{
+    font-size: 100px
+}
+
+#slider .slider-description h2{
+    font-size: 50px
+}
+
+#slider .slider-actions {
+    width: 20%;
+    position: absolute;
+    top: 65%;
+    left: 19%;
+    color: white;
+}
